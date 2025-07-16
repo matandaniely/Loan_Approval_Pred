@@ -13,7 +13,7 @@ The objective is to predict whether a loan will be approved (Y) or denied (N) ba
 
 **Dataset Overview**
 
-The dataset includes 304 entries with the following features:
+The dataset includes 838 datapoints with the following features:
 
 | Feature            | Type        | Description                        |
 | ------------------ | ----------- | ---------------------------------- |
