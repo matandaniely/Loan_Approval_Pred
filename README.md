@@ -97,7 +97,8 @@ print("R2 Score:", r2_score(y_test, y_pred_rnd_clf))
 
 **Random Forest Prediction Results**
 
-       <img width="996" height="547" alt="image" src="https://github.com/user-attachments/assets/898f84de-ea1b-4947-9d44-b442f3a922cd" />
+<img width="996" height="547" alt="output" src="https://github.com/user-attachments/assets/b9e9da8f-a03e-49e2-8e26-10c41875a0ce" />
+
 
 **Key Insights**    
     
