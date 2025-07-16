@@ -15,19 +15,21 @@ The objective is to predict whether a loan will be approved (Y) or denied (N) ba
 
 The dataset includes 304 entries with the following features:
 
-Feature	Type	Description    
-Gender	Categorical	Applicant gender    
-Married	Categorical	Marital status    
-Dependents	Categorical	Number of dependents    
-Education	Categorical	Graduate/Not Graduate    
-Self_Employed	Categorical	Employment type    
-ApplicantIncome	Numeric	Monthly income of the applicant    
-CoapplicantIncome	Numeric	Monthly income of co-applicant    
-LoanAmount	Numeric	Loan amount requested    
-Loan_Amount_Term	Numeric	Term of the loan    
-Credit_History	Numeric	Credit history (1 = Good, 0 = Bad)    
-Property_Area	Categorical	Urban/Rural/Semiurban area    
-Loan_Status	Target	Loan approved (Y/N)    
+| Feature            | Type        | Description                        |
+| ------------------ | ----------- | ---------------------------------- |
+| Gender             | Categorical | Applicant gender                   |
+| Married            | Categorical | Marital status                     |
+| Dependents         | Categorical | Number of dependents               |
+| Education          | Categorical | Graduate/Not Graduate              |
+| Self\_Employed     | Categorical | Employment type                    |
+| ApplicantIncome    | Numeric     | Monthly income of the applicant    |
+| CoapplicantIncome  | Numeric     | Monthly income of co-applicant     |
+| LoanAmount         | Numeric     | Loan amount requested              |
+| Loan\_Amount\_Term | Numeric     | Term of the loan                   |
+| Credit\_History    | Numeric     | Credit history (1 = Good, 0 = Bad) |
+| Property\_Area     | Categorical | Urban/Rural/Semiurban area         |
+| Loan\_Status       | Target      | Loan approved (Y/N)                |
+  
     
 **Data Cleaning & Preprocessing**    
     
