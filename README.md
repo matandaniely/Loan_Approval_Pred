@@ -4,14 +4,14 @@ This project presents a full pipeline for building, evaluating, and comparing cl
 
 
 **Why is it important to test two prediction models?**    
-No One-Size-Fits-All Model    
+1. No One-Size-Fits-All Model    
 Different models make different assumptions and behave differently depending on the nature of the dataset. For example:    
 Logistic Regression assumes linear relationships.    
 Random Forest can capture nonlinear interactions and is more flexible.    
-Check for Overfitting vs. Generalization    
+2. Check for Overfitting vs. Generalization    
 One model might perform extremely well on training data but poorly on unseen data (overfitting).    
 Testing multiple models helps find the one that generalizes best to real-world data.    
-Baseline vs. Advanced     
+3. Baseline vs. Advanced     
 A simple model like Logistic Regression is often used as a baseline.     
 Comparing it to a more complex model like Random Forest helps understand whether the added complexity brings real improvement.    
 
