@@ -5,7 +5,8 @@ This project presents a full pipeline for building, evaluating, and comparing cl
 📁 Project Structure
 
 Loan_Classification_and_Predictions.ipynb: Jupyter Notebook containing all steps from data preprocessing to model evaluation.
-loan approval classification external dataset.csv: Dataset used in the project.
+loan approval classification external dataset.csv: Dataset used in the project.    
+
 🧠 Problem Statement
 
 The objective is to predict whether a loan will be approved (Y) or denied (N) based on multiple applicant attributes such as income, credit history, employment status, and more. This is framed as a binary classification task.
