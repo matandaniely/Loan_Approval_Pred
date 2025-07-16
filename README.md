@@ -1,11 +1,11 @@
-🏦  **Loan Approval Classification Project**
+**Loan Approval Classification Project**
 
 This project presents a full pipeline for building, evaluating, and comparing classification models to predict loan approval outcomes based on applicant information. The dataset, sourced from a public loan dataset, is analyzed using data cleaning, visualization, feature engineering, and supervised machine learning algorithms.
 
 **Project Structure**
 
-Loan_Classification_and_Predictions.ipynb: Jupyter Notebook containing all steps from data preprocessing to model evaluation.
-loan approval classification external dataset.csv: Dataset used in the project.    
+- Loan_Classification_and_Predictions.ipynb: Jupyter Notebook containing all steps from data preprocessing to model evaluation.    
+- loan approval classification external dataset.csv: Dataset used in the project.     
 
 **Problem Statement**
 
