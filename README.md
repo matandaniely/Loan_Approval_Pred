@@ -73,6 +73,12 @@ Count plots and heatmaps using Seaborn for feature distributions and correlation
 ROC curves and model comparison charts.    
     
 **Sample Code Snippets**   
+
+    The data couldn't be used raw:    
+    1. Data cleaning and imputation was needed     
+    2. Creating dummies in order to change categorical information into numerical data points      
+    3. We scale features in machine learning to make sure all numeric inputs are on a similar scale, which improves the performance and reliability of many algorithms.    
+    4. Creating a correlation heatmap to identify whice features have an impact on results - which is crucial for a logistic regression model so we could eliminate noise (for more complex ML models it is less necessary to eliminate 0 correlated featuess).     
     
 **Data Exploration**    
 loan.isnull().sum()    
