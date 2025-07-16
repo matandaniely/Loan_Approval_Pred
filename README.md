@@ -80,7 +80,11 @@ ROC curves and model comparison charts.
     3. We scale features in machine learning to make sure all numeric inputs are on a similar scale, which improves the performance and reliability of many algorithms.    
     4. Creating a correlation heatmap to identify whice features have an impact on results - which is crucial for a logistic regression model so we could eliminate noise (for more complex ML models it is less necessary to eliminate 0 correlated featuess).     
 
+
+The result of creating dummies:     
 <img width="872" height="375" alt="The dummies" src="https://github.com/user-attachments/assets/7b5554d9-0ef8-4e7a-9e7a-9961fc2d5698" />
+
+    The Correlation Matrix betwen the features, their dummies and scaled datapoints      
       
 <img width="1362" height="1156" alt="Feature Corr" src="https://github.com/user-attachments/assets/4c3ae97c-e1fa-4ccf-a469-9fe9883b487f" />
         
