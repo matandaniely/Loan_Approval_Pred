@@ -62,19 +62,43 @@ ROC curves and model comparison charts.
     
 **Data Exploration**    
 loan.isnull().sum()    
-loan.describe()    
+<img width="854" height="416" alt="Exploration1" src="https://github.com/user-attachments/assets/2df97cfa-12de-49c5-bd10-268b25348169" />    
+    
+loan.info()    
+<img width="962" height="597" alt="loan info()" src="https://github.com/user-attachments/assets/e210b48c-2c43-428a-9cac-d9882be47393" />    
+    
     
 **Model Training**    
 lr = LogisticRegression()    
 lr.fit(X_train, y_train)    
+
+<img width="1236" height="801" alt="LogReg" src="https://github.com/user-attachments/assets/d321fe61-a820-49a6-b8dd-b37dc0ca0c04" />
+<img width="1247" height="768" alt="LogReg Pred" src="https://github.com/user-attachments/assets/cb1390cd-92ac-4691-9de3-65e447531e47" />
+
     
 rf = RandomForestClassifier()    
 rf.fit(X_train, y_train)    
+    
+<img width="1252" height="755" alt="RndF" src="https://github.com/user-attachments/assets/ab2adc94-7e50-42ee-a2d2-2a077cac65e9" />
+
 
 **Evaluation**    
-from sklearn.metrics import classification_report    
-print(classification_report(y_test, rf.predict(X_test)))    
-    
+print("Logistic Regression:")
+print("MSE:", mean_squared_error(y_test, y_pred_logreg))
+print("R2 Score:", r2_score(y_test, y_pred_logreg))
+print()
+
+print("Random Forest Regressor:")
+print("MSE:", mean_squared_error(y_test, y_pred_rnd_clf))
+print("R2 Score:", r2_score(y_test, y_pred_rnd_clf))   
+
+
+<img width="1261" height="561" alt="n_estimators and evaluation" src="https://github.com/user-attachments/assets/ea067902-c20e-4c8c-b6b7-c2daa22a5fea" />
+
+**Random Forest Prediction Results**
+
+       <img width="996" height="547" alt="image" src="https://github.com/user-attachments/assets/898f84de-ea1b-4947-9d44-b442f3a922cd" />
+
 **Key Insights**    
     
 Credit history was the most influential factor in predicting loan approval.    
